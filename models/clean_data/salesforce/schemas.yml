@@ -1,0 +1,6 @@
+version: 2 
+
+models: 
+  - name: clean_sf_branch
+  - name: clean_sf_orders
+  - name: clean_sf_uss_cost
