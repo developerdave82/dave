@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: snowflake
     database: raw
-    schema: salesforce
+    schema: dbt_dshelton
     tables:
       - name: branch
       - name: orders
