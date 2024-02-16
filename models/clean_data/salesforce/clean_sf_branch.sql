@@ -5,7 +5,7 @@ raw AS (
     SELECT *
     FROM {{ source ('snowflake', 'branch') }}
 
-)
+),
 
 clean AS (
     SELECT
