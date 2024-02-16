@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: snowflake
+    database: raw
+    schema: salesforce
+    tables:
+      - name: branch
+      - name: orders
+      - name: uss_cost
